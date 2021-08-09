@@ -6,3 +6,7 @@ study("Bar date/time")
 plot(time)
 //末尾time[1],延时一个序列单位
 plot(time[1])
+
+//按周跃进
+//study("Bar date/time")
+//plot(time("W"))
